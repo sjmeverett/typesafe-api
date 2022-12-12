@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "sucrase-node src/server"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.5",
+    "@types/koa-bodyparser": "^4.3.10",
+    "sucrase": "^3.29.0",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "koa": "^2.14.1",
+    "koa-bodyparser": "^4.3.0",
+    "zod": "^3.19.1"
+  }
+}
